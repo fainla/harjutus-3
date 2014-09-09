@@ -5,7 +5,7 @@
 
 </head>
 <body>
-	<h1>Muutuja<h1>
+	<h1>Muutujad<h1>
 
 <?php
     $variable = 10;
@@ -16,6 +16,16 @@
     $variable = 20;
     echo $variable;
 ?>
+<h2>Stringid</h2>
+<?php echo "Hello world! <br> ";?>
+<?php echo 'Hello World!' ;?>
+
+<?php
+    $number1 ="24";
+    $number2 ="26";
+    echo $number1 . $number2;
+    ?>
+
 </body>
 </html>
 
