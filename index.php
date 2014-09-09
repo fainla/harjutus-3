@@ -25,7 +25,29 @@
     $number2 ="26";
     echo $number1 . $number2;
     ?>
+    <h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
+   <?php
+   $student1 ="Syret";
+   $student2 ="Anneli";
+   $student3 ="Margit";
+   $student4 ="Eve";
+   $student5 ="Fränk";
 
+   ?>
+   <?php
+   		echo "<li>" . $student1 . "</li>";
+   		echo "<li>" . $student2 . "</li>";
+   		echo "<li>" . $student3 . "</li>";
+   		echo "<li>" . $student4 . "</li>";
+   		echo "<li>" . $student5 . "</li>";
+   ?>
+<?php 
+
+	$firstName ="Fränk"; 
+	$lastName ="Ainla";
+	$fullName = $firstName . " " . $lastName;
+	echo "$fullName";
+?>	
 </body>
 </html>
 
